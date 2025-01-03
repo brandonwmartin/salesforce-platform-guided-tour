@@ -24,7 +24,7 @@ export default function ChapterBuilderDrawerController($scope, WizardHandler, To
     Steps.clear();
     Steps.pop({
       number: 'one',
-      title: 'Give Einstein instructions to generate Apex code.'
+      title: 'Give Agentforce instructions to generate Apex code.'
     });
 
     Steps.pop({
