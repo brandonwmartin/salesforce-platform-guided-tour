@@ -33,7 +33,7 @@ export default function ChapterBuilderDrawerController($scope, WizardHandler, To
     });
     Steps.pop({
       number: 'three',
-      title: 'We can deploy source code to the org.'
+      title: 'We can deploy the source code to the org.'
     });
     Steps.pop({
       number: 'four',
