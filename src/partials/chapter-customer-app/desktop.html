@@ -45,7 +45,7 @@
           <wz-step>
             <div class="step step-4a">
               <div class="flyout active">
-                <span>Adding that selection increased the price by $3,000.</span>
+                <span>Mike can see the update in real time and choose to purchase his customized vehicle.</span>
                 <a ng-click="GoToStep4(); gtmTrack('progress', 'customer app: complete step 7')">continue</a>
                 <span class="carat"><i></i></span>
               </div>
@@ -53,8 +53,22 @@
           </wz-step>
           <wz-step>
             <div class="step step-4">
+              <!-- <div class="click-box active" ng-click="NextSlideNoTab(); gtmTrack('progress', 'customer app: complete step 8')"></div> -->
+              <div class="click-box active" ng-click="GoToStep5(); gtmTrack('progress', 'customer app: complete step 8')"></div>
+            </div>
+          </wz-step>
+          <!--Studio Science new step 5-->
+          <wz-step>
+            <div class="step step-5">
               <div class="click-box active"
-                ng-click="NextSlideNoTab(); gtmTrack('progress', 'customer app: complete step 8')"></div>
+                ng-click="GoToStep6(); gtmTrack('progress', 'customer app: complete step 9')"></div>
+            </div>
+          </wz-step>
+          <!--Studio Science new step 6-->
+          <wz-step>
+            <div class="step step-6">
+              <div class="click-box active"
+                ng-click="GoToStep7(); gtmTrack('progress', 'customer app: complete step 10')"></div>
             </div>
           </wz-step>
           <wz-step success="true">

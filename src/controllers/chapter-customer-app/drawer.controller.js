@@ -33,12 +33,22 @@ export default function ChapterCustomerAppDrawerController($scope, WizardHandler
 
     Steps.pop({
       number: 'three',
-      title: 'Select the option for &quot;Self Driving Capability.&quot;'
+      title: 'If Mike adds customizations, such as &quot;Self Driving Capability&quot;, he can see the price quote change automatically.'
     });
 
     Steps.pop({
       number: 'four',
       title: 'Click  &quot;Purchase.&quot;'
+    });
+
+    Steps.pop({
+      number: 'five',
+      title: 'Click the button to open Agentforce.'
+    });
+
+    Steps.pop({
+      number: 'six',
+      title: 'Press &quot;send&quot; to check on the status of your order.'
     });
 
     Hotspots.clear();

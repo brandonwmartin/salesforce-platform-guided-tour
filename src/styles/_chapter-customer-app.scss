@@ -14,13 +14,22 @@
   }
 
   .step-3 {
-    background: url("../assets/images/chapters/chapter-customer-app/customer-app-3.png")
+    background: url("../assets/images/chapters/chapter-customer-app/customer-app-3-v2.png")
       center center no-repeat;
   }
   .step-4a,
   .step-4 {
-    background: url("../assets/images/chapters/chapter-customer-app/customer-app-4.png")
+    background: url("../assets/images/chapters/chapter-customer-app/customer-app-4-v2.png")
       center center no-repeat;
+  }
+  .step-5 {
+    background: url("../assets/images/chapters/chapter-customer-app/customer-app-5-v2.png")
+    center center no-repeat;
+  }
+
+  .step-6 {
+    background: url("../assets/images/chapters/chapter-customer-app/customer-app-6-v2.png")
+    center center no-repeat;
   }
 
   .step {
@@ -59,6 +68,22 @@
       right: 181px;
       width: 68px;
       height: 19px;
+    }
+  }
+  .step-5 {
+    .click-box {
+      bottom: 49px;
+      right: 121px;
+      width: 41px;
+      height: 39px;
+    }
+  }
+  .step-6 {
+    .click-box {
+      bottom: 7px;
+      right: 42px;
+      width: 22px;
+      height: 21px;
     }
   }
 }

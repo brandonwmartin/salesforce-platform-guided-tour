@@ -64,6 +64,14 @@ export default function ChapterCustomerAppController($scope, $timeout, Steps, Wi
     WizardHandler.wizard("monitor").next();
     Steps.activate("four");
   };
+  $scope.GoToStep5 = function() {
+    WizardHandler.wizard("monitor").next();
+    Steps.activate("five");
+  };
+  $scope.GoToStep6 = function() {
+    WizardHandler.wizard("monitor").next();
+    Steps.activate("six");
+  };
 
   $scope.renderConfetti = function() {
     successConfetti.renderConfetti();
