@@ -22,7 +22,7 @@
     background: url("../assets/images/chapters/chapter-customer-app/customer-app-4-v2.png")
       center center no-repeat;
   }
-  .step-5 {
+  .step-5, .step-4b {
     background: url("../assets/images/chapters/chapter-customer-app/customer-app-5-v2.png")
     center center no-repeat;
   }
@@ -30,6 +30,12 @@
   .step-6 {
     background: url("../assets/images/chapters/chapter-customer-app/customer-app-6-v2.png")
     center center no-repeat;
+  }
+
+  .step-6a {
+    background: url("../assets/images/chapters/chapter-customer-app/agent.jpg")
+    center center no-repeat;
+    background-position: top;
   }
 
   .step {

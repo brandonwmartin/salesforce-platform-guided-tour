@@ -53,22 +53,42 @@
           </wz-step>
           <wz-step>
             <div class="step step-4">
-              <!-- <div class="click-box active" ng-click="NextSlideNoTab(); gtmTrack('progress', 'customer app: complete step 8')"></div> -->
-              <div class="click-box active" ng-click="GoToStep5(); gtmTrack('progress', 'customer app: complete step 8')"></div>
+              <div class="click-box active" ng-click="NextSlideNoTab(); gtmTrack('progress', 'customer app: complete step 8')"></div>
+              <!-- <div class="click-box active" ng-click="GoToStep5(); gtmTrack('progress', 'customer app: complete step 8')"></div> -->
+            </div>
+          </wz-step>
+          <!--Studio Science new step 4b-->
+          <wz-step>
+            <div class="step step-4b">
+              <div class="flyout active">
+                <span>Now with Agentforce, Mike can also do things like follow up on the status of his order.</span>
+                <a ng-click="GoToStep5(); gtmTrack('progress', 'customer app: complete step 9')">continue</a>
+                <span class="carat"><i></i></span>
+              </div>
             </div>
           </wz-step>
           <!--Studio Science new step 5-->
           <wz-step>
             <div class="step step-5">
               <div class="click-box active"
-                ng-click="GoToStep6(); gtmTrack('progress', 'customer app: complete step 9')"></div>
+                ng-click="GoToStep6(); gtmTrack('progress', 'customer app: complete step 10')"></div>
             </div>
           </wz-step>
           <!--Studio Science new step 6-->
           <wz-step>
             <div class="step step-6">
               <div class="click-box active"
-                ng-click="GoToStep7(); gtmTrack('progress', 'customer app: complete step 10')"></div>
+                ng-click="NextSlideNoTab(); gtmTrack('progress', 'customer app: complete step 11')"></div>
+            </div>
+          </wz-step>
+          <!--Studio Science new step 6a-->
+          <wz-step>
+            <div class="step step-6a">
+              <div class="flyout active">
+                <span>With Agent Builder, Electron Motors is able to build and customize this experience to do everything from order to delivery management, by connecting a library of of actions the agent can take from existing business logic such as Flows, Apex, MuleSoft APIs, and Prompt templates.</span>
+                <a ng-click="NextSlideNoTab(); gtmTrack('progress', 'customer app: complete step 12')">continue</a>
+                <span class="carat"><i></i></span>
+              </div>
             </div>
           </wz-step>
           <wz-step success="true">
@@ -90,7 +110,7 @@
                   <a href="https://www.salesforce.com/products/heroku/overview" class="success-text-link"
                     target="_blank" rel="noopener noreferrer"
                     ng-click='gtmTrack("cta clicks", "Learn more about Heroku", "customer app: summary screen")'>Learn
-                    more about Heroku <span class="carat"><i></i></span></a>
+                    more about Agent Builder <span class="carat"><i></i></span></a> 
                 </div>
               </li-center>
             </div>

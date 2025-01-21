@@ -2,10 +2,11 @@
 
 .outro {
   .recap-0 {
-    background: url("../assets/images/chapters/outro/recap-0-text-2x-2-2024.png")
+    background: url("../assets/images/chapters/outro/recap-0-v2.png")
       center center no-repeat;
     position: relative;
     background-size: contain;
+    padding-top: 310px;
     h3 {
       margin: 0;
       padding: 30px 20px 20px;
@@ -15,6 +16,9 @@
       line-height: 23px;
       letter-spacing: -0.002em;
       color: #FFFFFF;
+    }
+    .recap-buttons {
+      bottom: 30px !important;
     }
   }
 
