@@ -87,6 +87,13 @@
     height: 100%;
     .slide-0 {
       position: relative;
+      .slide-text {
+        bottom: 0;
+        top: auto;
+        p {
+          color: #ffffff;
+        }
+      }
       p {
         font-size: 18px;
         line-height: 28px;
@@ -116,7 +123,7 @@
           }
         }
         .text {
-          color: #0176d3;
+          color: #ffffff;
           text-align: center;
           font-size: 16px;
           line-height: 28px;
@@ -126,7 +133,7 @@
           justify-content: center;
           margin-bottom: 0;
           i {
-            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAM1BMVEUAAAABdtMBd9MAedQBd9QAeM8Cd9QBdtQCdtIAcM8BdtMDddIAdtIEeNMAetUAeNcBdtNsRu7zAAAAEHRSTlMAgL9f3yCfz28Qr2BQQDAgv91mxQAAAEBJREFUGNOtzLcRACAMwEByDt5/WjgafJgKo/ILiadCoZYBNEFrfmmXOA9LK5CaiApnpslzmi7mGBa27aJfxm8ANGYDtqxrijwAAAAASUVORK5CYII=');
+            background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAANBAMAAABSlfMXAAAALVBMVEUAAAD///////////////////////////////////////////////////////+hSKubAAAADnRSTlMAQJ9/7zAg3xDPv5BwYJrNQHMAAAA9SURBVAjXYwCBXgYo2GcAZaQ/hjLY6pCFhJSAQPOdAYPdOzDwYEgUBAKpJwEQNXauEJoZXYDhSACUwQHEAEFeEguTgGcUAAAAAElFTkSuQmCC");
             background-repeat: no-repeat;
             background-size: contain;
             width: 20px;
