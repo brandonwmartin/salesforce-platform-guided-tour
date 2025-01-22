@@ -38,6 +38,32 @@
     background-position: top;
   }
 
+  .step-6b {
+    background: url("../assets/images/chapters/chapter-customer-app/customer-app-6b-v2.png")
+    center center no-repeat;
+    background-position: top; 
+  }
+  .current .step-6b {
+    .flyout {
+      // transition: transform 0.2s ease-in-out;
+      // transform: translateX(-100%);
+      width: 150px;
+      // border-radius: 0px 8px 8px 0px;
+      // right: auto;
+      // left: 0;
+
+      .carat {
+        margin-top: 5px;
+        margin-left: 5px;
+      }
+      
+      &.active {
+        transform: translateX(0);
+        bottom: 300px;
+      }
+    }
+  }
+
   .step {
     background-size: contain;
   }
